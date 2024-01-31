@@ -9,17 +9,77 @@
     color: var(--text1);
     font-family: "Montserrat", sans-serif;
 }
-
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
    position: relative;
+   left: 2vw;
+   z-index: 9;
 }
-.card .close{
-    left: 13.5vw;
-    top: -1.5vw;
-    position: absolute;
-    font-size: 3vw;
+.topcardicons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.8vw;
+}
+.topcardicons h3{
+    position: relative;
+    right: 5.5vw;
+    top: 1.3vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5vw;
+}
+.docicon{
+    position: relative;
+    left: 1vw;
+    padding: 0.3vw;
+    color: rgb(95, 93, 69);
+}
+.close{
+    position: relative;
+    z-index: 99;
+    font-size: 2.8vw;
+    left: 16vw;
+    top: 2.5vw;
     color: red;
 }
+.whitefill{
+    position: absolute;
+    left: 16.8vw;
+    bottom: 19vw;
+    z-index: 15;
+    width: 1.2vw;
+    height: 1.5vw;
+    background-color: white;
+}
 .card p{
-    width: 70%;
+    position: relative;
+    bottom: 5.8vw;
+    display: flex;
+    margin: auto;
+    max-height: 4vh;
+    font-weight: 600;
+    text-align: left;
+    font-size: 0.9vw;
+    max-width: 90%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cardStatus{
+    width: 18vw;
+    padding: 0.8vw;
+    background-color: red;
+}
+.cardStatus h3{
+    font-size: 1vw;
+    color: white;
+}
+@media (max-width : 700px) {
+    .card p{
+        color: red;
+        margin-top: 2.5vw;
+    }
 }
