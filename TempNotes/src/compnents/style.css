@@ -42,8 +42,8 @@
     position: relative;
     z-index: 99;
     font-size: 2.8vw;
-    left: 16vw;
-    top: 2.5vw;
+    left: 15.5vw;
+    top: 3vw;
     color: red;
 }
 .whitefill{
@@ -57,13 +57,13 @@
 }
 .card p{
     position: relative;
-    bottom: 5.8vw;
+    bottom: 5vw;
     display: flex;
     margin: auto;
     max-height: 4vh;
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
-    font-size: 0.9vw;
+    font-size: 0.84vw;
     max-width: 90%;
     font-family: "Montserrat", sans-serif;
 }

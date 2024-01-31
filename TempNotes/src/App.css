@@ -27,3 +27,6 @@
     color: var(--text1);
     font-size: 10vw;
 }
+::selection{
+    color: orangered;
+}
