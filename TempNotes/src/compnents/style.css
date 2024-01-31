@@ -27,7 +27,7 @@
 .topcardicons h3{
     position: relative;
     right: 5.5vw;
-    top: 1.3vw;
+    bottom: 3vw;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5vw;
@@ -35,15 +35,15 @@
 .docicon{
     position: relative;
     left: 1vw;
-    padding: 0.3vw;
+    bottom: 4vw;
     color: rgb(95, 93, 69);
 }
 .close{
     position: relative;
     z-index: 99;
     font-size: 2.8vw;
-    left: 15.5vw;
-    top: 3vw;
+    left: 13vw;
+    bottom: 0.6vw;
     color: red;
 }
 .whitefill{
