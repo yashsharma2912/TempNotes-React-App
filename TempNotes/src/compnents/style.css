@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navHead{
+    display: flex;
+    padding: 2vw;
+    font-size: 2vw;
+    color: var(--text1);
+    font-family: "Montserrat", sans-serif;
+}
+
+.card{
+   position: relative;
+}
+.card .close{
+    left: 13.5vw;
+    top: -1.5vw;
+    position: absolute;
+    font-size: 3vw;
+    color: red;
+}
+.card p{
+    width: 70%;
+}
