@@ -6,7 +6,7 @@ const Card = ({data,reference}) => {
     
   return (
    <div className="cards">
-    <motion.div drag dragConstraints={reference} className="card max-w-[16vw] h-[20vw] bg-slate-200 rounded-[1vw] ">
+    <motion.div drag dragConstraints={reference} className="card max-w-[16vw] h-[20vw] bg-slate-300 rounded-[1vw] ">
        <div className="fileclose">
        <i class="ri-close-circle-fill close cursor-pointer"></i>
        </div>
