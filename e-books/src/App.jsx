@@ -1,11 +1,13 @@
-
+import Navbar from './Components/Navbar'
+import CardContainer from './Components/CardContainer'
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <h1>hello world</h1>
+     <Navbar/>
+     <CardContainer/>
     </>
   )
 }

@@ -1,0 +1,12 @@
+.navbox{
+    display: flex;
+    gap: 2vw;
+    border: 1px solid red;
+    padding: 1vw;
+    justify-content: center;
+    width: 60vw;
+}
+.elem{
+    padding: 0.01vw 2vw;
+    border: 1px solid black;
+}
