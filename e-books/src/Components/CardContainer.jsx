@@ -1,12 +1,15 @@
-import React from 'react'
-import Card from './card'
+import React from 'react';
+import Card from './card';
+import Data from './cardApi.js';
 
-const CardContainer = () => {
+const CardContainer = ({ Data }) => {
   return (
-   <div className='cardContainer'>
-     <Card />
-   </div>
-  )
-}
+    <div className='cardContainer'>
+      {data.map((item, index) => (
+        <Card key={index} item={item} />
+      ))}
+    </div>
+  );
+};
 
-export default CardContainer
+export default CardContainer;

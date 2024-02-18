@@ -84,7 +84,7 @@ function App() {
       <div ref={ref} className="fg" >
       <Nav/>
       <div className="cardDis flex flex-wrap justify-center gap-10">
-          {data.map((item,index) => (
+          {data.map((item) => (
             <Card data={item} reference={ref}/>
           ))}
       </div>
