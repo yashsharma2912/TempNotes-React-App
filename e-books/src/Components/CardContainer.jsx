@@ -1,13 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Card from './card';
-import Data from './cardApi.js';
+import { data } from './cardApi.js';
 
-const CardContainer = ({ Data }) => {
+const CardContainer = ( ) => {
+    const [cardData,setcardData] = useState(data);
   return (
     <div className='cardContainer'>
-      {data.map((item, index) => (
-        <Card key={index} item={item} />
-      ))}
+     {data.map((item) => {return(<Card title={item.title}/>)})}
     </div>
   );
 };

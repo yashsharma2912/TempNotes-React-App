@@ -1,4 +1,4 @@
-const Data = [
+export const data = [
 {
     id:1,
     thumb: "url",
@@ -38,21 +38,20 @@ const Data = [
 {
     id:7,
     thumb: "url",
-    title: "Abra ka Dabra",
+    title: "Chota Bheem",
     desc: "this is a description of book cards",
 },
 {
     id:8,
     thumb: "url",
-    title: "Abra ka Dabra",
+    title: "Shaktiman",
     desc: "this is a description of book cards",
 },
 {
     id:9,
     thumb: "url",
-    title: "Abra ka Dabra",
+    title: "Baazigar",
     desc: "this is a description of book cards",
 },
 ];
 
-export default Data;
